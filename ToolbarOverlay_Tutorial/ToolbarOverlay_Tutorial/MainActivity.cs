@@ -1,30 +1,30 @@
-﻿using System;
-using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.App;
 using Android.OS;
+using Android.Support.V7.App;
+using SupportToolBar = Android.Support.V7.Widget.Toolbar;
 
 namespace ToolbarOverlay_Tutorial
 {
-    [Activity(Label = "ToolbarOverlay_Tutorial", MainLauncher = true, Icon = "@drawable/icon")]
-    public class MainActivity : Activity
+    [Activity(Label = "ToolbarOverlay_Tutorial", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme.MyTheme")]
+    public class MainActivity : ActionBarActivity
     {
-        int count = 1;
-
+        private SupportToolBar mToolBar;
         protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(bundle);
+            try
+            {
+                base.OnCreate(bundle);
+                SetContentView(Resource.Layout.Main);
+                mToolBar.FindViewById<SupportToolBar>(Resource.Id.toolbar);
 
-            // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+                SetSupportActionBar(mToolBar);
+            }
+            catch (System.Exception ex)
+            {
+                string temp = "temp";
+            }
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
         }
     }
 }

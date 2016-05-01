@@ -3,11 +3,162 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/top_ten_places_swayambhu_temple"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView1" />
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1" />
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Text"
+                android:id="@+id/textView1" />
+        </TableLayout>
+    </ScrollView>
+    <android.Support.V7.Widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="#00ff0000" />
 </LinearLayout>

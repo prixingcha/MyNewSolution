@@ -1,0 +1,13 @@
+﻿<resources>
+  <!--<style name="CustomActionBarTheme"
+         parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    <item name="android:actionBarStyle">@style/MyActionBar</item>
+  </style>-->
+
+  <style name="Theme.MyTheme"
+           parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#86C2C1</item>
+    <item name="colorPrimaryDark">#F2F2F2</item>
+    <item name="colorAccent">#F2F2F2</item>
+  </style>
+</resources>
