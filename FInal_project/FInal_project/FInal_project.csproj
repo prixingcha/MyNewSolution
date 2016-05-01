@@ -49,8 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DetailListViewActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MyListViewAdapter.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -60,6 +63,12 @@
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\MyMenu.axml" />
     <AndroidResource Include="Resources\layout\LandingPage.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DetailListView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\listView_Row.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
