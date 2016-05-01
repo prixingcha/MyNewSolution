@@ -4,7 +4,7 @@ using Android.Widget;
 
 namespace FInal_project
 {
-    [Activity(Label = "FInal_project", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "FInal_project")]
     public class MainActivity : Activity
     {
         int count = 1;
